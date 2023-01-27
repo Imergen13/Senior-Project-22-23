@@ -1,0 +1,102 @@
+{
+    "contrast_level": [
+        "high"
+    ],
+    "low_alpha": 0,
+    "low_contrast": 0,
+    "low_density": 0,
+    "medium_alpha": 0.3,
+    "medium_contrast": 0.4,
+    "medium_density": 0,
+    "high_alpha": 1,
+    "high_contrast": 0.8,
+    "high_density": 0.01,
+    "tree_resolution": 40,
+    "speed_baseline": 20.1,
+    "speed_increment": 0,
+    "maxTurnAngle": 120,
+    "avg_deviation_threshold": 0.75,
+    "min_turn_radius": 35,
+    "max_turn_radius": 70,
+    "turn_arc_length": 60,
+    "leadIn_length": 30,
+    "break_road_length": 15,
+    "road_width": 6,
+    "rightLaneIsCenter": true,
+    "treeGrid_range": 50,
+    "treeGrid_resolution": 40,
+    "treePos_margin": 5,
+    "treeGrid_density": 0.05,
+    "breakDeviationThreshold": 4,
+    "breakDeviationTime": 1,
+    "trialDeviationThreshold": 8,
+    "trialDeviationTime": 1,
+    "blockList": [
+        "noisy-cws",
+        "no-cws"
+    ],
+    "_comment1": "An obstacle visibility of 0 implies NO object will be placed.",
+    "no-cws_obstacle_visibility": [
+        0,
+        0.03,
+        0.3,
+        1
+    ],
+    "_comment2": "Entries iterate through turn direction (r/l) and obstacle_visibility index, for example...",
+    "_comment3": "[L_V1, LV2, LV3, LV4, RV1, RV2, RV3, RV4] - [30,10,10,10,30,10,10,10]",
+    "no-cws_trialRepetitions": [
+        30,
+        10,
+        10,
+        10,
+        30,
+        10,
+        10,
+        10
+    ],
+    "no-cws_sensing-type": "None",
+    "noisy-cws_obstacle_visibility": [
+        0,
+        0.03,
+        0.3,
+        1
+    ],
+    "noisy-cws_sensing-type": "ttc_threshold",
+    "noisy-cws_sensing-params": [
+        2.5,
+        5
+    ],
+    "noisy-cws_trialRepetitions": [
+        30,
+        10,
+        10,
+        10,
+        30,
+        10,
+        10,
+        10
+    ],
+    "baselineSpeed": 20.100000381469727,
+    "speedIncrement": 0,
+    "avgDeviationThreshold": 0.75,
+    "BreakDeviationThreshold": 4,
+    "BreakDeviationTime": 1,
+    "TrialDeviationThreshold": 8,
+    "TrialDeviationTime": 1,
+    "StartingSpeedLevel": 0,
+    "LevelUpCounter": 0,
+    "obstacle_visibilities_by_blockprefix": {
+        "noisy-cws": [
+            0,
+            0.029999999329447746,
+            0.30000001192092896,
+            1
+        ],
+        "no-cws": [
+            0,
+            0.029999999329447746,
+            0.30000001192092896,
+            1
+        ]
+    }
+}
